@@ -101,6 +101,18 @@ section{padding:130px 0}
 .map{height:220px;margin-top:110px}
 footer{background:#0f241c;color:#8ea398;font-size:13px;padding:44px 0;line-height:1.9}
 footer b{color:#fff;font-family:"Noto Serif KR","Noto Serif CJK KR";font-size:18px;display:block;margin-bottom:10px}
+/* placeholders -> finished look (until real photos) */
+.ph{font-size:0!important;color:transparent!important}
+.hero .ph{background:radial-gradient(600px 500px at 60% 45%,#2c5a48 0%,#1b3f31 55%,#16352a 100%)!important}
+.hero .ph:before{content:"";position:absolute;right:12%;top:22%;width:320px;height:320px;border:1px solid rgba(201,154,82,.35);border-radius:50%}
+.hero .ph:after{background:linear-gradient(90deg,var(--g) 0%,rgba(22,53,42,0) 40%)!important}
+.card .ph,.dish .ph,.map{display:none!important}
+.card{padding-top:8px}
+.dish div{padding:22px 0}
+.dish b{margin-top:8px}
+.svc .ph{background:linear-gradient(150deg,#1f4637,#16352a)!important;position:relative;display:flex}
+.svc .ph:after{content:"4,000+";font-family:"Noto Serif KR","Noto Serif KR","Noto Serif CJK KR",serif;font-size:96px;color:#c99a52;letter-spacing:.02em}
+.svc .ph:before{content:"매일 제공하는 식수";position:absolute;bottom:42px;left:0;right:0;text-align:center;font-size:16px;color:#cfe0d6;letter-spacing:.2em}
 
 .regions{background:var(--paper)}
 .rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--g)}
